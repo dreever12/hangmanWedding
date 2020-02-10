@@ -1,0 +1,41 @@
+.main{
+    color: orange;
+    text-align: center;
+    background-color: lightgray;
+    padding: 50px 0px;
+}
+
+.start{
+    color: orange !important;
+    border: orange solid 1px !important;
+}
+
+.start:hover{
+    color: white !important;
+    background-color: orange;
+}
+
+.bodyText{
+    background-color: orange;
+    height: 100vh;
+    text-align: center;
+    color: gray;
+    padding: 0px 100px;
+}
+.game {
+    background-color: white;
+    height: 100vh;
+    padding-top: 100px;
+}
+.wordBox{
+    border: solid gray 2px;
+}
+h2{
+    padding: 20px 5px;
+}
+.arr{
+    border: solid orange 1px;
+    color: gray;
+    margin: 0px 200px;
+    font-size: 18px;
+}

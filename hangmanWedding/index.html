@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid main">
+        <div class="container">
+          <h1 class="display-4">A Game of Hangman</h1>
+          <p class="lead">Press the button below to being</p>
+          <hr class="my-4">
+          <a class="start btn btn-lg" href="#" role="button">Start Playing</a>
+        </div>
+      </div>
+      <div class="container-fluid bodyText">
+        <div class="container game">
+            <h1> The word below is <span id="numLetters">?</span> letters long</h1>
+            <div class="wordBox">
+                <h2>Current Word to Guess</h2>
+                <div><span id="currentWord">?</span></div>
+                <h2 >Guessed Letters</h2>
+                <div class="arr"><span id="letterArr">?</span></div>
+                <h2>Wins: <span id="wins">?</span></h2>
+                <h2>Losses: <span id="losses">?</span></h2>
+                <h2>Chances Remaining: <span id="remaining">?</span></h2>
+            </div>
+        </div>
+      </div>
+
+
+	<script src="javascript.js"></script>
+</body>
+</html>
